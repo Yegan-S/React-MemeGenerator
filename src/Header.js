@@ -5,13 +5,14 @@ import "./App.css";
 export default function Header (){
     return(
         <header className="Header">
+
            <img src={TrollFace}
            alt="trollface"
-           className="TrollFace" 
-           width="45px"
+           className="header--image" 
            /> 
-           <h2>Meme Generator</h2>
-           <h4>React Course - project 3 </h4>
+
+           <h2 className="header--title">Meme Generator</h2>
+           <h4 className="header--project">React Course - project 3 </h4>
         </header>
     );
 }
