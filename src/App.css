@@ -19,10 +19,10 @@ main{
 }
 .header--image{
   height: 100%;
-  margin-right: 6px;
+  margin-right: 8px;
 }
 .header--title{
-  font-size: 1.25rem;
+  font-size: 1.07rem;
   margin-right: auto;
 }
 .header--project{
@@ -47,4 +47,7 @@ main{
   color: white;
   border: none;
   cursor: pointer;
+}
+.meme--image{
+  max-width: 100%;
 }
