@@ -78,6 +78,7 @@ import "./App.css";
             <h2 className="meme--text bottom">{meme.bottomText}</h2>
             
             </div>
+            
         </main>
 
     );
